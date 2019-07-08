@@ -1,0 +1,35 @@
+footer {     
+    background-color: #555;
+    color: white;
+    padding: 15px 15px 15px 15px;
+}
+
+.jumbotron {
+    background-color: lightpink;
+    margin-bottom: 0px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 35px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+nav {
+    background-color: #ff000b;
+    margin-bottom:20px;
+}
