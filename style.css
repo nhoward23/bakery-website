@@ -1,22 +1,22 @@
 footer {     
-    background-color: #555;
+    background-color: lightblue;
     color: white;
     padding: 15px 15px 15px 15px;
 }
 
 .jumbotron {
-    background-color: lightpink;
-    margin-bottom: 0px;
+    background-color: white;
+    margin-bottom: 0px
 }
 
 .fa {
     padding: 20px;
     font-size: 35px;
-    width: 55px;
+    width: 65px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
+    border-radius: 50%; 
   }
 
 .fa-facebook {
@@ -29,7 +29,29 @@ footer {
     color: white;
 }
 
-nav {
-    background-color: #ff000b;
-    margin-bottom:20px;
+.contact-primary {
+    margin-top: 0px;
 }
+.contact-primary:before{
+    content: "";
+    display:block;
+    height: 40px;
+    background-size: auto 100%;
+    /*background-color: lightblue;*/
+    /*background: url(images/polka-dots.png); */
+    background: url(images/small-dots.jpg);
+    background-repeat: repeat-x;
+}
+.contact-primary:after{
+    content: "";
+    display:block;
+    height: 40px;
+    background-size: auto 100%;
+    /*background-color: lightblue;*/
+    /*background: url(images/polka-dots.png); */
+    background: url(images/small-dots.jpg);
+    background-repeat: repeat-x;
+}
+
+
+

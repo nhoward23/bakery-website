@@ -1,0 +1,52 @@
+
+nav {
+    background-color: rgba(255,255,255,.9);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.primary-header {
+    /*background: url(images/delete.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    position: relative;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(245,245,245,.52);
+    z-index: 99;
+}
+
+/* Wraps text inside the header/banners for sections */
+.desc-wrapper {
+    /* TODO: add animation later */
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    max-width: 956px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrapper {
+    padding: 20px;
+    margin-bottom: 36px;
+}
+
+.text-wrapper {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: large;
+    padding-left: 30px;
+}
