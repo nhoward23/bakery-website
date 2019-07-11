@@ -12,6 +12,12 @@ nav {
     position: relative;
 }
 
+.lithos-header {
+    height:80px; 
+    width:600px;
+    margin-bottom: 24px;
+}
+
 .color-overlay {
     position: absolute;
     top: 0;
@@ -33,7 +39,8 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 32px;
+    /*padding: 32px; */
+    padding-top: 100px;
     text-align: center;
     text-rendering: optimizeLegibility;
     font-family: 'Open Sans', sans-serif;

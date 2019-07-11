@@ -1,31 +1,36 @@
 footer {     
-    background-color: lightblue;
+    background-color: #949090;
     color: white;
     padding: 15px 15px 15px 15px;
 }
 
 .jumbotron {
     background-color: white;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    height: 600px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 35px;
-    width: 65px;
+    /*width: 65px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%; 
+    border-radius: 50%;  */
   }
 
 .fa-facebook {
-    background: #3B5998;
+    /* background: #3B5998; */
     color: white;
-}
-
+} 
 .fa-instagram {
-    background: #125688;
+    /* background: #125688; */
     color: white;
 }
 
@@ -53,5 +58,64 @@ footer {
     background-repeat: repeat-x;
 }
 
+
+nav {
+    background-color: rgba(255,255,255,.9);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.primary-header {
+    /*background: url(images/delete.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    position: relative;
+}
+
+.lithos-header {
+    height:80px; 
+    width:600px;
+    margin-bottom: 24px;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(245,245,245,.52);
+    z-index: 99;
+}
+
+/* Wraps text inside the header/banners for sections */
+.desc-wrapper {
+    /* TODO: add animation later */
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    max-width: 956px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    /*padding: 32px; */
+    padding-top: 100px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-wrapper {
+    padding: 20px;
+    margin-bottom: 36px;
+}
+
+.text-wrapper {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: large;
+    padding-left: 30px;
+}
 
 
