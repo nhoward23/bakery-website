@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Madison Park Bakery</title>
+  <meta charset="utf-8">
+  <!-- width=device-width sets the page width to the same width of the screen. -->
+  <!-- initial-scale=1 sets the initial zoom level-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+  <!-- Social Media References-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Personal Style Sheet -->
+  <link rel="stylesheet" href="style.css"></link> 
+</head>
+
+<body>
+        <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+        <button>Get External Content</button>
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+                <img src="images/homeheader.png" alt="Logo" style="width:40px;">
+        </a>
+    
+        <!-- Collapse Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+    
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Weddings</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Order!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Title Sequence -->
+<div class="jumbotron jumbotron-fluid text-left bg-white" style="margin-bottom:0px">
+    <div class="container text-center">  
+        <img src="images/homeheader.png" alt="Logo" class="float-left img-fluid">
+        <img class="img-fluid" src="images/0001.png" alt="Title" height="80px" width="600px" style="margin-bottom: 24px"><br>
+        <p style="font-family: 'Courgette', cursive;">First established in 1929, Madison Park Bakery continues to serve 
+                the community a wide variety of Wedding & specialty cakes, 
+                donuts, pies, pastries, cookies & more! 
+        </p>
+    </div>
+</div>
+
+<div class="contact-primary"> 
+<!-- Jumbrotron with Carousel -->
+<div class="jumbotron text-center" >
+    <h1> We Are Madison Park Bakery </h1><br>
+    
+    <div class="row">
+        <div class="col-sm-8">
+            <!-- The Carousel-->
+            <div id="gallery" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#gallery" data-slide-to="0" class="active"></li>
+                    <li data-target="#gallery" data-slide-to="1"></li>
+                    <li data-target="#gallery" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The content -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cute.jpg" alt="Pic 1" height="400px" width="600px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/sophterry2.jpg" alt="pic 2"  height="400px" width="600px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cookie3.jpg" alt="pic 3"  height="400px" width="600px">
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#gallery" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#gallery" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- The intrdouction -->
+        <div class="col-sm-4 text-left">
+            <p>First established in 1929, Madison Park Bakery continues to serve the community
+                    in a wide variety of Wedding & Specialty cakes, donuts, pies, pastries, cookies & more!
+                    <br><br>
+                We're an old-fashioned bakery owned and operated by Karen & Terry Hofman
+                who since 1993, have taken a great deal of pride in "baking from scratch".
+                <br><br>
+                Caffe Vita espresso, numerous beverages, Holiday & party treats are also available.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Product Grid -->
+<div class="container">
+    <h1 class="text-center" style="padding:2%">Check out our products.</h1>
+    <!-- First Row -->
+    <div class="row" style="margin-bottom:20px">
+        <div class="col">
+            <h3>Doughnuts</h3>
+            <p class="text-muted"> We have the best doughnuts in the world! Try our Bacon Maple bar.</p>
+            <!-- Attempt at Collapsible Button -->
+            <button type="button" class="btn" data-toggle="collapse" data-target="#demo">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-doughnut.png" alt="There is supposed to be a doughnut here.">
+            </button>
+            <div id="demo" class="collapse jumbotron">
+                <img src="images/tiersofjoy.png" height="200px" width="150px">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+        <div class="col">
+            <h3>Wedding Cakes</h3>
+            <p class="text-muted"> Our wedding cakes will be the "icing on top" for your special day.</p>
+            <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-wedding-cake.png" alt="There is supposed to be a doughnut here.">
+        </div>
+        <div class="col">
+            <h3>Cakes</h3>
+            <p class="text-muted"> Our cakes are stacked! Try our popular rainbow cake. </p>
+            <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-cake.png" alt="There is supposed to be a doughnut here.">
+        </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row" style="margin-bottom:46px">
+            <div class="col">
+                <h3>Cookies</h3>
+                <p class="text-muted"> You will not be able to get enough of our scrumptious cookies. </p>
+                <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-cookie.png" alt="There is supposed to be a doughnut here.">
+            </div>
+            <div class="col">
+                <h3>Breads</h3>
+                <p class="text-muted"> Bread baked from scratch and made with love for you.</p>
+                <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-bread.png" alt="There is supposed to be a doughnut here.">
+            </div>
+            <div class="col">
+                <h3>Pies</h3>
+                <p class="text-muted"> We make the best pies in the world just ask Nicole. </p>
+                <img class="img-fluid rounded-circle mx-auto d-block" src="images/jenn-pie.png" alt="There is supposed to be a doughnut here.">
+            </div>
+        </div>
+</div>
+
+
+<!-- Contact Info Jumbotron -->
+<div class="contact-primary">
+<div class="jumbotron text-center" style="background-color:white; margin-bottom:0px;">
+    <h1>Come visit us! </h1>
+        <p> <dt>Hours</dt>
+            Monday: Closed <br>
+            Tuesday - Friday: 7:00 a.m. - 6:00 p.m. <br>
+            Saturday: 7:00 a.m. - 6:00 p.m. <br>
+            Sunday: 9:00 a.m. - 4:00 p.m. <br>
+        </p>
+        <p> <dt>Phone Number</dt> 206-322-3238 </p>
+        <p> <dt>Address</dt>
+            <a href="https://www.google.com/maps/place/4214+E+Madison+St,+Seattle,+WA+98112/@47.6360423,-122.2801359,17z/data=!3m1!4b1!4m5!3m4!1s0x549014b42f252bd3:0x8d88c7dc70d962d6!8m2!3d47.6360387!4d-122.2779472">4214 East Madison St., Seattle, WA </a></p> 
+        
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <img src="images/homeheader.png" alt="Logo" class="float-left" height="100" width="100">
+        <h6 class="text-center">Follow us on Instagram and Like us on Facebook!</h6>
+        <a href="https://www.facebook.com/madisonparkbakery/?__tn__=%2Cd%2CP-R&eid=ARC5ava7Vml6yFbAGxKfMglh0fuvLVHWSf4sL-EhU7SJT77yxZjzo5LD_6ftCtmeC9OzPHeExluRYvNi" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/madisonparkbakery/" class="fa fa-instagram"></a>
+        <br><small>Created by Nicole Howard</small>
+    </div>
+</footer>
+
+</body>
+</html>
+

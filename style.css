@@ -1,7 +1,12 @@
 footer {     
     background-color: #949090;
     color: white;
-    padding: 15px 15px 15px 15px;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(255,255,255,.9);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .jumbotron {
@@ -11,8 +16,14 @@ footer {
 }
 
 .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 36px;
+    margin-bottom: 70px;
+}
+
+/* wraps header to give is some space (ex. for "our story" )*/
+.header-wrapper {
+    padding: 20px;
+    margin-bottom: 36px;
 }
 
 .fa {
@@ -23,7 +34,7 @@ footer {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;  */
-  }
+}
 
 .fa-facebook {
     /* background: #3B5998; */
@@ -58,14 +69,8 @@ footer {
     background-repeat: repeat-x;
 }
 
-
-nav {
-    background-color: rgba(255,255,255,.9);
-    font-family: 'Quicksand', sans-serif;
-}
-
+/* This is for the image headers */
 .primary-header {
-    /*background: url(images/delete.jpg);*/
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
@@ -104,11 +109,6 @@ nav {
     text-align: center;
     text-rendering: optimizeLegibility;
     font-family: 'Open Sans', sans-serif;
-}
-
-.header-wrapper {
-    padding: 20px;
-    margin-bottom: 36px;
 }
 
 .text-wrapper {
