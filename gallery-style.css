@@ -1,12 +1,32 @@
+
+.container {
+    display: inline-grid;
+    grid-gap: 50px 100px;
+    
+}
+
+.item {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-row-start: auto;
+    grid-row-end: auto;
+}
+
+.photo-grid {
+    display: grid;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    grid-column-gap: 10px;
+    grid-row-gap: 15px; */
+}
+
 footer {     
     background-color: #949090;
     color: white;
-    /* position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%; */
-    position: absolute;
-    width: 100%;
+    /*padding: 20px;*/
+    margin-bottom: 20px;
 }
 
 nav {
