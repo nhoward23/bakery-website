@@ -1,0 +1,111 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: 100px;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* background-color: rgb(255, 127, 223); */
+    margin: 10px;
+    max-height: 400px;
+}
+  
+/* img { 
+    width: 100%; 
+    height: 100%;
+    min-width: 0;
+    margin: 10px; /*delete later, jsut having for understanding rn
+    max-height: 400px;
+} */
+
+.img-container {
+    display: block;
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%; 
+    height: auto;
+    min-width: 0;
+    max-height: 400px;
+    margin: 10px;
+}
+
+.image {
+    opacity: 1;
+    /* display: block;
+    width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    /* backface-visibility: hidden; */
+    width: 100%; 
+    height: 100%;
+    min-width: 0;
+    max-height: 295px;
+    /* margin: 10px; */
+}
+
+.img-container:hover .image {
+    opacity: .2;
+}
+
+.img-container:hover .description {
+    opacity: 1;
+}
+
+.description {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* box 2 */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

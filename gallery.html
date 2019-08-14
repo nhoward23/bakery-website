@@ -20,57 +20,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Personal Style Sheet -->
     <link rel="stylesheet" href="gallery-style.css"></link> 
-    </head>
+</head>
+
 <body>
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-sm navbar-light sticky-top">
-    <!-- Brand -->
-    <a class="navbar-brand" href="index.html">
-            <img src="images/homeheader.png" alt="Logo" style="width:60px;">
-    </a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+                <img src="images/homeheader.png" alt="Logo" style="width:60px;">
+        </a>
 
-    <!-- Collapse Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggle-icon"></span>
-    </button>
+        <!-- Collapse Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggle-icon"></span>
+        </button>
 
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item disabled">
-                    <a class="nav-link" href="#">Weddings</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item disabled">
-                    <a class="nav-link" href="#">Order!</a>
-            </li>
-        </ul>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Weddings</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Order!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <div class="jumbotron primary-header" style="background-image: url(images/door-cake.jpg);">
+        <!-- This puts a overlay over whatever it is contained in. -->
+        <div class="color-overlay"></div>
+        <div class="desc-wrapper" style="padding-top: 70px">
+                <img class="img-fluid" src="images/gallery.png" alt="products.png" width="400px">
+        </div>
+        <div class="desc-wrapper">
+                <strong> Our treats are made from the finest ingredients that we grow in the back there is no sugar in any of our products.</strong>
+        </div>
     </div>
-</nav>
 
-<!-- Gallery Header -->
-<div class="jumbotron primary-header" style="background-image: url(images/cookie4.jpg);">
-    <!-- This puts a overlay over whatever it is contained in. -->
-    <div class="color-overlay"></div>
-    <div class="desc-wrapper">
-            <img class="img-fluid" src="images/gallery.png" alt="products.png" width="400px">
-    </div>
-    <div class="desc-wrapper">
-            <strong> Our treats are made from the finest ingredients that we grow in the back there is no sugar in any of our products.</strong>
-    </div>
-</div>
-
-<!-- Flex box Gallery Grid -->
-<!-- <div class="container">
+    <!-- Flex box Gallery Grid -->
+    <!-- <div class="container">
     <h2 class="text-center">
         <img class="img-fluid" src="images/cookies.png" alt="cookies font" width="350px">
     </h2>
@@ -100,14 +101,78 @@
 
 </div> -->
 
-<!-- Grid !!! -->
-<div class="container">
-    <div class="item">Hi</div>
-    <div class="item">Hi</div>
-    <div class="item">Hi</div>
-    <div class="item">Hi</div>
-</div>
+    <!-- Grid !!! -->
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-item" tabindex="0">
 
+                <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
+
+                <div class="gallery-item-info">
+
+                    <ul>
+                        <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+                        <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="gallery-item" tabindex="0">
+
+                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
+    
+                    <div class="gallery-item-info">
+    
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+                        </ul>
+    
+                    </div>
+            </div>
+            <div class="gallery-item" tabindex="0">
+
+                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
+    
+                    <div class="gallery-item-info">
+    
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+                        </ul>
+    
+                    </div>
+            </div>
+            <div class="gallery-item" tabindex="0">
+
+                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
+    
+                    <div class="gallery-item-info">
+    
+                        <ul>
+                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
+                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
+                        </ul>
+    
+                    </div>
+                </div>
+        </div>
+    </div>
 
 </body>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-wrapper">
+            <img src="images/homeheader.png" alt="Logo" class="float-left" height="100px" width="100px">
+
+            <div class="footer-wrapper">
+                <h6 class="text-center">Follow us on Instagram and Like us on Facebook!</h6>
+                <a href="https://www.facebook.com/madisonparkbakery/?__tn__=%2Cd%2CP-R&eid=ARC5ava7Vml6yFbAGxKfMglh0fuvLVHWSf4sL-EhU7SJT77yxZjzo5LD_6ftCtmeC9OzPHeExluRYvNi" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/madisonparkbakery/" class="fa fa-instagram"></a>
+                <br><small>Created by Nicole Howard</small>
+            </div>
+        </div>
+    </footer>
+
 </html>
