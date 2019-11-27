@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Personal Style Sheet -->
     <link rel="stylesheet" href="gallery-style.css"></link> 
+    <link rel="stylesheet" href="test-box-style.css"></link> 
 </head>
 
 <body>
@@ -43,16 +44,13 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item disabled">
-                        <a class="nav-link" href="#">Weddings</a>
+                    <a class="nav-link" href="weddings.html">Weddings</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item disabled">
-                        <a class="nav-link" href="#">Order!</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
             </ul>
         </div>
@@ -70,96 +68,70 @@
         </div>
     </div>
 
-    <!-- Flex box Gallery Grid -->
-    <!-- <div class="container">
-    <h2 class="text-center">
-        <img class="img-fluid" src="images/cookies.png" alt="cookies font" width="350px">
-    </h2>
-
-    <div class="photo-grid">
-        <img class="item img-fluid" src="images/cookie1.jpg" alt="img" width="350px">
-        <img class="item img-fluid" src="images/cookie3.jpg" alt="img" width="350px">
-        <img class="item img-fluid" src="images/cookie4.jpg" alt="img" width="350px">
-        <img class="item img-fluid" src="images/cookie5.jpg" alt="img" width="350px">
-    </div>
-    <h2 class="text-center">
-            <img class="img-fluid" src="images/pies.png" alt="pies font" height="50px">
-    </h2>
-    <div class="photo-grid">
-        <img class="item img-fluid" src="images/pie1.jpg" alt="img" width="350px">
-    </div>
-   
-    <h2 class="text-center">
-            <img class="img-fluid" src="images/pastries.png" alt="pastries font" width="350px">
-    </h2>
-
-    <div class="photo-grid">
-        <img class="item img-fluid" src="images/pastry2.jpg" alt="img" width="350px">
-        <img class="item img-fluid" src="images/pastry1.jpg" alt="img" width="350px">
-    </div>
-
-
-</div> -->
-
-    <!-- Grid !!! -->
-    <div class="container">
-        <div class="gallery">
-            <div class="gallery-item" tabindex="0">
-
-                <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
-
-                <div class="gallery-item-info">
-
-                    <ul>
-                        <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
-                        <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
-                    </ul>
-
+    <!-- Gallery Grid -->
+    <div class="flex-container">
+        <div class="flex-row">
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/cookie1.jpg">
+                <div class="description">
+                    <div class="text">Gingerbread house put description here</div>
                 </div>
             </div>
-            <div class="gallery-item" tabindex="0">
-
-                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
-    
-                    <div class="gallery-item-info">
-    
-                        <ul>
-                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
-                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
-                        </ul>
-    
-                    </div>
-            </div>
-            <div class="gallery-item" tabindex="0">
-
-                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
-    
-                    <div class="gallery-item-info">
-    
-                        <ul>
-                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
-                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
-                        </ul>
-    
-                    </div>
-            </div>
-            <div class="gallery-item" tabindex="0">
-
-                    <img src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=500&h=500&fit=crop" class="gallery-image img-fluid" alt="">
-    
-                    <div class="gallery-item-info">
-    
-                        <ul>
-                            <li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> 56</li>
-                            <li class="gallery-item-comments"><span class="visually-hidden">Comments:</span><i class="fas fa-comment" aria-hidden="true"></i> 2</li>
-                        </ul>
-    
-                    </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/cookie4.jpg">
+                <div class="description">
+                    <div class="text">chocolate chip put description here</div>
                 </div>
+            </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/cookie3.jpg">
+                <div class="description">
+                    <div class="text">m&m cookies put description here</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/cookie5.jpg">
+                <div class="description">
+                    <div class="text"> Star cookies put description here</div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/pie1.jpg">
+                <div class="description">
+                    <div class="text">pie put description here</div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/doughnut2.jpg">
+                <div class="description">
+                    <div class="text">doughnuts put description here</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/doughnut1.jpg">
+                <div class="description">
+                    <div class="text">doughnuts put description here</div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/pastry1.jpg">
+                <div class="description">
+                    <div class="text">pastry put description here</div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="img-fluid image" src="images/products/pastry2.jpg">
+                <div class="description">
+                    <div class="text">pastry put description here</div>
+                </div>
+            </div>
         </div>
     </div>
 
-</body>
 
     <!-- Footer -->
     <footer class="text-center">
